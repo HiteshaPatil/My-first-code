@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{ 
+int length,breadth,area;
+printf("enter length and breadth:");
+scanf("%d %d",&length,&breadth);
+area=length*breadth;
+printf("area=%d",area);
+return 0;
+}
+
+
+//output
+//enter length and breadth: 10 20
+//area=200
