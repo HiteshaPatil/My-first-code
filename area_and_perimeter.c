@@ -7,6 +7,12 @@ int main()
   area=side*side;
   perimeter=4*side;
   printf("area=%d",area);
-  printf("square=%d",square);
+  printf("perimeter=%d",perimeter);
   return 0;
 }
+
+
+//output 
+//Enter side of square:5
+//area= 25
+//perimeter=20
